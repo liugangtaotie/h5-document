@@ -1,0 +1,52 @@
+{
+  "name": "h5-document",
+  "version": "1.0.8",
+  "description": "大前端文档",
+  "author": "liugang2@bsoft.com.cn",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --open --host \"localhost\"",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-comments": "^1.5.7",
+    "@vuepress/shared-utils": "^1.7.1",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-boxx": "0.0.7",
+    "vuepress-theme-reco": "1.6.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "eslint": "6.7.2",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.7.1",
+    "stylelint-config-recess-order": "^2.0.4",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.2",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
+    "@vuepress/plugin-nprogress": "^1.4.0",
+    "leancloud-storage": "^4.8.2",
+    "valine": "^1.4.14",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-cursor-effects": "^1.0.0",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-meting": "^0.1.1",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-plugin-reading-progress": "^1.0.8",
+    "vuepress-plugin-ribbon": "^1.0.2",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://jkcs.bsoft.com.cn/learning/h5/h5-document.git"
+  }
+}

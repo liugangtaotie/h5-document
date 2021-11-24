@@ -1,0 +1,7 @@
+# Ignore artifacts:
+.vscode
+build
+dist
+node_modules
+miniOnlineData
+public
