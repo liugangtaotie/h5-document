@@ -73,7 +73,7 @@ declare module "vue/types/vue" {
 * 2.3.2 同时也可以自己上传：
 
 ```javascript
-* a、git clone -b develop http://jkcs.bsoft.com.cn/hc/service/hcn-web.git
+* a、git clone -b develop http://jkcs.common.com.cn/hc/service/hcn-web.git
 * b、cd hcn-web\web\mini_images，放入相应的图片
 * c、jenkins(hcn-web) 构建选择slave / rancher(hcn-web-slave-3-3-04)
 ```

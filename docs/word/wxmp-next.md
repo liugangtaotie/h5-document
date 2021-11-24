@@ -16,7 +16,7 @@ categories:
 
 [ 注意: 下面的说明仅供参考,会由于项目变更而发生变化,请随时保持沟通! ]()
 
-[gitlab - 源码](http://jkcs.bsoft.com.cn/bs-standard-repo/fore-end/wxmp-next)
+[gitlab - 源码](http://jkcs.common.com.cn/bs-standard-repo/fore-end/wxmp-next)
 
 ## 一、Vue2 VS Vue3(API)
 

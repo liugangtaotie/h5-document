@@ -14,14 +14,14 @@ categories:
 
 ### 组件库git地址:
 
-[bs-common-ui组件库git地址](https://jkcs.bsoft.com.cn/common/bs-common-ui)
+[bs-common-ui组件库git地址](https://jkcs.common.com.cn/common/bs-common-ui)
 
-[bs-common-ui-next组件库git地址](https://jkcs.bsoft.com.cn/common/bs-common-ui-next)
+[bs-common-ui-next组件库git地址](https://jkcs.common.com.cn/common/bs-common-ui-next)
 
-| 项目名                   | 说明                                        | 备注       |
-|--------------------------|---------------------------------------------|------------|
-| @bsoft/bs-common-ui      | 基于uView UI,适配不同终端的解决方案         | 版本v1.0.8 |
-| @bsoft/bs-common-ui-next | 基于uView UI,适配不同终端的解决方案(vue3.x) | 版本v1.0.4 |
+| 项目名                    | 说明                                        | 备注       |
+|---------------------------|---------------------------------------------|------------|
+| @common/bs-common-ui      | 基于uView UI,适配不同终端的解决方案         | 版本v1.0.8 |
+| @common/bs-common-ui-next | 基于uView UI,适配不同终端的解决方案(vue3.x) | 版本v1.0.4 |
 
 ## 背景
 
@@ -35,7 +35,7 @@ categories:
 
 ## 一、如何开发
 
-* 1.git clone https://jkcs.bsoft.com.cn/common/bs-common-ui-xxx
+* 1.git clone https://jkcs.common.com.cn/common/bs-common-ui-xxx
 
 * 2.cnpm i / yarn / npm i
 
@@ -49,9 +49,9 @@ categories:
 
 * 4.查看npm 私有仓库:
 
-  [bs-common-ui私有仓库](http://pri-npm.atag.bsoft.com.cn/-/web/detail/bs-common-ui)
+  [bs-common-ui私有仓库](http://pri-npm.atag.common.com.cn/-/web/detail/bs-common-ui)
 
-  [bs-common-ui-next私有仓库](http://pri-npm.atag.bsoft.com.cn/-/web/detail/bs-common-ui-next)
+  [bs-common-ui-next私有仓库](http://pri-npm.atag.common.com.cn/-/web/detail/bs-common-ui-next)
 
 ## 三、如何使用
 
@@ -59,7 +59,7 @@ categories:
 
 ```bash
 # npm方式安装
-npm i @bsoft/bs-common-ui-xxx
+npm i @common/bs-common-ui-xxx
 ```
 
 ### 3.2 快速上手
@@ -68,7 +68,7 @@ npm i @bsoft/bs-common-ui-xxx
 
 ```js
 // main.ts
-import uView from '@bsoft/bs-common-ui-xxx';
+import uView from '@common/bs-common-ui-xxx';
 Vue.use(uView);
 ```
 
@@ -77,7 +77,7 @@ Vue.use(uView);
 ```bash
 /* App.vue */
 <style lang="scss">
-@import "@bsoft/bs-common-ui-xxx/index.scss";
+@import "@common/bs-common-ui-xxx/index.scss";
 </style>
 ```
 
@@ -85,7 +85,7 @@ Vue.use(uView);
 
 ```bash
 /* uni.scss */
-@import "@bsoft/bs-common-ui-xxx/theme.scss";
+@import "@common/bs-common-ui-xxx/theme.scss";
 ```
 
 4. `pages.json`配置easycom规则(按需引入)
@@ -96,9 +96,9 @@ Vue.use(uView);
 	"easycom": {
 		// npm安装的方式不需要前面的"@/"，下载安装的方式需要"@/"
 		// npm安装方式
-		"^u-(.*)": "@bsoft/bs-common-ui-xxx/components/u-$1/u-$1.vue"
+		"^u-(.*)": "@common/bs-common-ui-xxx/components/u-$1/u-$1.vue"
 		// 下载安装方式
-		// "^u-(.*)": "@bsoft/bs-common-ui-xxx/components/u-$1/u-$1.vue"
+		// "^u-(.*)": "@common/bs-common-ui-xxx/components/u-$1/u-$1.vue"
 	},
 	// 此为本身已有的内容
 	"pages": [

@@ -24,7 +24,7 @@ JS-Native是网页和原生进行交互的规范。
 // jsNativeCommonName：js+native 交互方法名
 // params：数据传输给native
 // callback：native回调函数
-Bsoft.goToNative(jsNativeCommonName, params, callback);
+common.goToNative(jsNativeCommonName, params, callback);
 });
 
 注：JS-Native之间通过json字符串进行通信
@@ -44,7 +44,7 @@ Bsoft.goToNative(jsNativeCommonName, params, callback);
 }
 
 // 示例
-Bsoft.goToNative("getUserInfo", params, (data: any) => {});
+common.goToNative("getUserInfo", params, (data: any) => {});
 ```
 
 ## 2. 获取客户端信息：getClientData
@@ -63,7 +63,7 @@ Bsoft.goToNative("getUserInfo", params, (data: any) => {});
 }
 
 // 示例
-Bsoft.goToNative("getClientData", params, (data: any) => {});
+common.goToNative("getClientData", params, (data: any) => {});
 ```
 
 ## 3. 获取token：getToken
@@ -77,7 +77,7 @@ Bsoft.goToNative("getClientData", params, (data: any) => {});
 }
 
 // 示例
-Bsoft.goToNative("getToken", params, (data: any) => {});
+common.goToNative("getToken", params, (data: any) => {});
 ```
 
 ## 4. 上传图片：uploadImage
@@ -94,7 +94,7 @@ Bsoft.goToNative("getToken", params, (data: any) => {});
 ]
 
 // 示例
-Bsoft.goToNative("uploadImage", params, (data: any) => {});
+common.goToNative("uploadImage", params, (data: any) => {});
 ```
 
 ## 5. 下载图片：downloadImage
@@ -114,7 +114,7 @@ Bsoft.goToNative("uploadImage", params, (data: any) => {});
 }
 
 // 示例
-Bsoft.goToNative("downloadImage", params, (data: any) => {});
+common.goToNative("downloadImage", params, (data: any) => {});
 ```
 
 ## 6. 打开地理位置：openLocation
@@ -132,7 +132,7 @@ Bsoft.goToNative("downloadImage", params, (data: any) => {});
 }
 
 // 示例
-Bsoft.goToNative("openLocation", params, (data: any) => {});
+common.goToNative("openLocation", params, (data: any) => {});
 ```
 
 ## 7. 获取地理位置：getLocation
@@ -150,7 +150,7 @@ Bsoft.goToNative("openLocation", params, (data: any) => {});
 }
 
 // 示例
-Bsoft.goToNative("getLocation", params, (data: any) => {});
+common.goToNative("getLocation", params, (data: any) => {});
 ```
 
 ## 8. 调起客户端扫一扫：scanQRCode
@@ -167,7 +167,7 @@ Bsoft.goToNative("getLocation", params, (data: any) => {});
 }
 
 // 示例
-Bsoft.goToNative("scanQRCode", params, (data: any) => {});
+common.goToNative("scanQRCode", params, (data: any) => {});
 ```
 
 ## 9. 导航栏状态：navBarStatus
@@ -181,7 +181,7 @@ Bsoft.goToNative("scanQRCode", params, (data: any) => {});
 - native回调给js的数据：{}
 
 // 示例
-Bsoft.goToNative("navBarStatus", params, (data: any) => {});
+common.goToNative("navBarStatus", params, (data: any) => {});
 ```
 
 ## 10. 状态栏：setStatusBarColor
@@ -192,7 +192,7 @@ Bsoft.goToNative("navBarStatus", params, (data: any) => {});
 - native回调给js的数据：{}
 
 // 示例
-Bsoft.goToNative("setStatusBarColor", params, (data: any) => {});
+common.goToNative("setStatusBarColor", params, (data: any) => {});
 ```
 
 ## 11. 返回/关闭页面：popToPrevious
@@ -203,7 +203,7 @@ Bsoft.goToNative("setStatusBarColor", params, (data: any) => {});
 - native回调给js的数据：{}
 
 // 示例
-Bsoft.goToNative("popToPrevious", params, (data: any) => {});
+common.goToNative("popToPrevious", params, (data: any) => {});
 ```
 
 ## 12. 当前用户登出：logout
@@ -214,7 +214,7 @@ Bsoft.goToNative("popToPrevious", params, (data: any) => {});
 - native回调给js的数据：{}
 
 // 示例
-Bsoft.goToNative("logout", params, (data: any) => {});
+common.goToNative("logout", params, (data: any) => {});
 ```
 
 ## 13. 跳转IM：jumpToIMChartVC
@@ -230,5 +230,5 @@ Bsoft.goToNative("logout", params, (data: any) => {});
 - native回调给js的数据：{}
 
 // 示例
-Bsoft.goToNative("jumpToIMChartVC", JSON.stringify(params), (data: any) => {});
+common.goToNative("jumpToIMChartVC", JSON.stringify(params), (data: any) => {});
 ```

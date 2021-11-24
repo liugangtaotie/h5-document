@@ -73,7 +73,7 @@ webpack 之类的打包工具会将各模块提前打包进 bundle 里，但打�
 ## 四、如何实践？ 
 直接上干货：下面链接
 
-[vite2-vue2-vant2-ts](https://jkcs.bsoft.com.cn/learning/h5/vite2-vue2-vant2-ts)
+[vite2-vue2-vant2-ts](https://jkcs.common.com.cn/learning/h5/vite2-vue2-vant2-ts)
 
 搭建的这套框架，解决了几个前端经常遇到的问题：
 
@@ -228,7 +228,7 @@ plugins: [
 
 ### 4.5 代码统一规范
 
-加入基本eslint 、stylelint、 prettier 等配置实现代码统一，[具体详见](https://jkcs.bsoft.com.cn/learning/h5/vite2-vue2-vant2-ts)
+加入基本eslint 、stylelint、 prettier 等配置实现代码统一，[具体详见](https://jkcs.common.com.cn/learning/h5/vite2-vue2-vant2-ts)
 
 ## 五、vite.config.ts配置详解
 

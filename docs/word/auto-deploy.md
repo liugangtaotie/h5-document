@@ -37,34 +37,34 @@ categories:
 
 #### 智慧健康通(半自动化部署) 对应表
 
-|    项目环境     |           jenkins 地址            |        项目        |            rancher   地址            |      部署项目      |
-|:---------------:|:---------------------------------:|:------------------:|:------------------------------------:|:------------------:|
-| 微信公众号(dev) | http://jenkins.atag.bsoft.com.cn/ | hc-wxmp-v3.3-dist  |  http://rancher.atag.bsoft.com.cn/   |    hc-wxmp-dist    |
-| 微信公众号(zk)  |               同上                |        同上        | http://rancher.zk.atag.bsoft.com.cn/ |        同上        |
-|  管理平台(dev)  |               同上                | hc-admin-v3.3-dist |  http://rancher.atag.bsoft.com.cn/   |   hc-admin-dist    |
-|  管理平台(zk)   |               同上                |        同上        | http://rancher.zk.atag.bsoft.com.cn/ |        同上        |
-| 公共mobile(dev) |               同上                | common-mobile-dist |  http://rancher.atag.bsoft.com.cn/   | common-mobile-dist |
-| 公共mobile(zk)  |               同上                |        同上        | http://rancher.zk.atag.bsoft.com.cn/ |        同上        |
-|  公共web(dev)   |               同上                |  common-web-dist   |  http://rancher.atag.bsoft.com.cn/   |  common-web-dist   |
-|   公共web(zk)   |               同上                |        同上        | http://rancher.zk.atag.bsoft.com.cn/ |        同上        |
+|    项目环境     |            jenkins 地址            |        项目        |            rancher   地址             |      部署项目      |
+|:---------------:|:----------------------------------:|:------------------:|:-------------------------------------:|:------------------:|
+| 微信公众号(dev) | http://jenkins.atag.common.com.cn/ | hc-wxmp-v3.3-dist  |  http://rancher.atag.common.com.cn/   |    hc-wxmp-dist    |
+| 微信公众号(zk)  |                同上                |        同上        | http://rancher.zk.atag.common.com.cn/ |        同上        |
+|  管理平台(dev)  |                同上                | hc-admin-v3.3-dist |  http://rancher.atag.common.com.cn/   |   hc-admin-dist    |
+|  管理平台(zk)   |                同上                |        同上        | http://rancher.zk.atag.common.com.cn/ |        同上        |
+| 公共mobile(dev) |                同上                | common-mobile-dist |  http://rancher.atag.common.com.cn/   | common-mobile-dist |
+| 公共mobile(zk)  |                同上                |        同上        | http://rancher.zk.atag.common.com.cn/ |        同上        |
+|  公共web(dev)   |                同上                |  common-web-dist   |  http://rancher.atag.common.com.cn/   |  common-web-dist   |
+|   公共web(zk)   |                同上                |        同上        | http://rancher.zk.atag.common.com.cn/ |        同上        |
 
 
 #### 互联网医院(半自动化部署) 对应表
 
-|     项目环境     |               jenkins 地址                |                  项目                   |              rancher   地址               |                部署项目                 |
-|:----------------:|:-----------------------------------------:|:---------------------------------------:|:-----------------------------------------:|:---------------------------------------:|
-| 微信公众号(dev)  | http://jenkins.dev.hol.atag.bsoft.com.cn/ |    bs-nethospital-wechat-alipay-dist    | http://rancher.dev.hol.atag.bsoft.com.cn/ |    bs-nethospital-wechat-alipay-dist    |
-|  微信公众号(zk)  |                   同上                    |                  同上                   | http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
-| 公共patient(dev) |                   同上                    |    bs-nethospital-base-service-dist     | http://rancher.dev.hol.atag.bsoft.com.cn/ |    bs-nethospital-base-service-dist     |
-| 公共patient(zk)  |                   同上                    |                  同上                   | http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
-| 公共doctor(dev)  |                   同上                    | bs-nethospital-base-service-doctor-dist | http://rancher.dev.hol.atag.bsoft.com.cn/ | bs-nethospital-base-service-doctor-dist |
-|  公共doctor(zk)  |                   同上                    |                  同上                   | http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
-|  管理平台(dev)   |                   同上                    |         bs-nethospital-web-dist         | http://rancher.dev.hol.atag.bsoft.com.cn/ |         bs-nethospital-web-dist         |
-|   管理平台(zk)   |                   同上                    |                  同上                   | http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
-| 公共mobile(dev)  |                   同上                    |            common-mobile-hlw            | http://rancher.dev.hol.atag.bsoft.com.cn/ |            common-mobile-hlw            |
-|  公共mobile(zk)  |                   同上                    |                  同上                   | http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
-|   公共web(dev)   |                   同上                    |             common-web-hlw              | http://rancher.dev.hol.atag.bsoft.com.cn/ |             common-web-hlw              |
-|   公共web(zk)    |                   同上                    |                  同上                   | http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
+|     项目环境     |                jenkins 地址                |                  项目                   |               rancher   地址               |                部署项目                 |
+|:----------------:|:------------------------------------------:|:---------------------------------------:|:------------------------------------------:|:---------------------------------------:|
+| 微信公众号(dev)  | http://jenkins.dev.hol.atag.common.com.cn/ |    bs-nethospital-wechat-alipay-dist    | http://rancher.dev.hol.atag.common.com.cn/ |    bs-nethospital-wechat-alipay-dist    |
+|  微信公众号(zk)  |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
+| 公共patient(dev) |                    同上                    |    bs-nethospital-base-service-dist     | http://rancher.dev.hol.atag.common.com.cn/ |    bs-nethospital-base-service-dist     |
+| 公共patient(zk)  |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
+| 公共doctor(dev)  |                    同上                    | bs-nethospital-base-service-doctor-dist | http://rancher.dev.hol.atag.common.com.cn/ | bs-nethospital-base-service-doctor-dist |
+|  公共doctor(zk)  |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
+|  管理平台(dev)   |                    同上                    |         bs-nethospital-web-dist         | http://rancher.dev.hol.atag.common.com.cn/ |         bs-nethospital-web-dist         |
+|   管理平台(zk)   |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
+| 公共mobile(dev)  |                    同上                    |            common-mobile-hlw            | http://rancher.dev.hol.atag.common.com.cn/ |            common-mobile-hlw            |
+|  公共mobile(zk)  |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
+|   公共web(dev)   |                    同上                    |             common-web-hlw              | http://rancher.dev.hol.atag.common.com.cn/ |             common-web-hlw              |
+|   公共web(zk)    |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
 
 
 ### 3.2 example(自动化部署)
@@ -75,33 +75,33 @@ categories:
 
 #### 智慧健康通(自动化部署) 对应表
 
-|    项目环境     |            rancher   地址            |      部署项目      |
-|:---------------:|:------------------------------------:|:------------------:|
-| 微信公众号(dev) |  http://rancher.atag.bsoft.com.cn/   |    hc-wxmp-dist    |
-| 微信公众号(zk)  | http://rancher.zk.atag.bsoft.com.cn/ |        同上        |
-|  管理平台(dev)  |  http://rancher.atag.bsoft.com.cn/   |   hc-admin-dist    |
-|  管理平台(zk)   | http://rancher.zk.atag.bsoft.com.cn/ |        同上        |
-| 公共mobile(dev) |  http://rancher.atag.bsoft.com.cn/   | common-mobile-dist |
-| 公共mobile(zk)  | http://rancher.zk.atag.bsoft.com.cn/ |        同上        |
-|  公共web(dev)   |  http://rancher.atag.bsoft.com.cn/   |  common-web-dist   |
-|   公共web(zk)   | http://rancher.zk.atag.bsoft.com.cn/ |        同上        |
+|    项目环境     |            rancher   地址             |      部署项目      |
+|:---------------:|:-------------------------------------:|:------------------:|
+| 微信公众号(dev) |  http://rancher.atag.common.com.cn/   |    hc-wxmp-dist    |
+| 微信公众号(zk)  | http://rancher.zk.atag.common.com.cn/ |        同上        |
+|  管理平台(dev)  |  http://rancher.atag.common.com.cn/   |   hc-admin-dist    |
+|  管理平台(zk)   | http://rancher.zk.atag.common.com.cn/ |        同上        |
+| 公共mobile(dev) |  http://rancher.atag.common.com.cn/   | common-mobile-dist |
+| 公共mobile(zk)  | http://rancher.zk.atag.common.com.cn/ |        同上        |
+|  公共web(dev)   |  http://rancher.atag.common.com.cn/   |  common-web-dist   |
+|   公共web(zk)   | http://rancher.zk.atag.common.com.cn/ |        同上        |
 
 #### 互联网医院(自动化部署) 对应表
 
-|     项目环境     |               rancher   地址               |                部署项目                 |
-|:----------------:|:------------------------------------------:|:---------------------------------------:|
-| 微信公众号(dev)  | hhttp://rancher.dev.hol.atag.bsoft.com.cn/ |    bs-nethospital-wechat-alipay-dist    |
-|  微信公众号(zk)  |  http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
-| 公共patient(dev) | hhttp://rancher.dev.hol.atag.bsoft.com.cn/ |    bs-nethospital-base-service-dist     |
-| 公共patient(zk)  |  http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
-| 公共doctor(dev)  | hhttp://rancher.dev.hol.atag.bsoft.com.cn/ | bs-nethospital-base-service-doctor-dist |
-|  公共doctor(zk)  |  http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
-|  管理平台(dev)   | http://rancher.dev.hol.atag.bsoft.com.cn/  |         bs-nethospital-web-dist         |
-|   管理平台(zk)   |  http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
-| 公共mobile(dev)  | http://rancher.dev.hol.atag.bsoft.com.cn/  |            common-mobile-hlw            |
-|  公共mobile(zk)  |  http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
-|   公共web(dev)   | http://rancher.dev.hol.atag.bsoft.com.cn/  |             common-web-hlw              |
-|   公共web(zk)    |  http://rancher.zk.hol.atag.bsoft.com.cn/  |                  同上                   |
+|     项目环境     |               rancher   地址                |                部署项目                 |
+|:----------------:|:-------------------------------------------:|:---------------------------------------:|
+| 微信公众号(dev)  | hhttp://rancher.dev.hol.atag.common.com.cn/ |    bs-nethospital-wechat-alipay-dist    |
+|  微信公众号(zk)  |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
+| 公共patient(dev) | hhttp://rancher.dev.hol.atag.common.com.cn/ |    bs-nethospital-base-service-dist     |
+| 公共patient(zk)  |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
+| 公共doctor(dev)  | hhttp://rancher.dev.hol.atag.common.com.cn/ | bs-nethospital-base-service-doctor-dist |
+|  公共doctor(zk)  |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
+|  管理平台(dev)   | http://rancher.dev.hol.atag.common.com.cn/  |         bs-nethospital-web-dist         |
+|   管理平台(zk)   |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
+| 公共mobile(dev)  | http://rancher.dev.hol.atag.common.com.cn/  |            common-mobile-hlw            |
+|  公共mobile(zk)  |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
+|   公共web(dev)   | http://rancher.dev.hol.atag.common.com.cn/  |             common-web-hlw              |
+|   公共web(zk)    |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
 
 ## 四. 快速食用
 

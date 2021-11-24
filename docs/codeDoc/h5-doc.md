@@ -156,9 +156,9 @@ DEMO:
 ### 统一前面scheme，根据类型匹配不同的模块交互。
 
 ```ts
-// APP跳转统一地址管理app://bsoft?com_bsoft_app_business_type=9
+// APP跳转统一地址管理app://common?com_common_app_business_type=9
   拦截例子，跳转云支付：
-  com_bsoft_app_business_type类型
+  com_common_app_business_type类型
   1 跳转app问诊列表
   2 跳转app医生主页
   3 跳转app地图

@@ -2,7 +2,7 @@
   "name": "h5-document",
   "version": "1.0.8",
   "description": "大前端文档",
-  "author": "liugang2@bsoft.com.cn",
+  "author": "liugang2@common.com.cn",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://jkcs.bsoft.com.cn/learning/h5/h5-document.git"
+    "url": "http://jkcs.common.com.cn/learning/h5/h5-document.git"
   }
 }

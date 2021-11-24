@@ -14,7 +14,7 @@ categories:
 
 [ 注意: 下面的说明仅供参考,会由于项目变更而发生变化,请随时保持沟通! ]()
 
-[gitlab - 源码](https://jkcs.bsoft.com.cn/learning/h5/vue2-ssr-mobile-code)
+[gitlab - 源码](https://jkcs.common.com.cn/learning/h5/vue2-ssr-mobile-code)
 
 ### 一、传统 vs ssr
 
@@ -319,7 +319,7 @@ app.listen(port, () => {
 ![Image text](../assets/images/ssr/vue-ssr-step-11.png)
 
 
-步骤十一. 部署到站点：https://jkt.bsoft.com.cn/hcn-home-mobile/
+步骤十一. 部署到站点：https://xxx.com.cn/hcn-home-mobile/
 
 
 ![Image text](../assets/images/ssr/vue-ssr-step-12.png)

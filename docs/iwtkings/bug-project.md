@@ -25,7 +25,7 @@ iOS 14.0 YYAnimatedImageView 无法显示正常图片
 //  E-mail: iwtkings@163.com
 //
 //  Created by iwtkings on 2020/09/23.
-//  Copyright © 2020 BSoft. All rights reserved.
+//  Copyright © 2020 common. All rights reserved.
 //
 
 #import "YYAnimatedImageView.h"
@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_END
 //  E-mail: iwtkings@163.com
 //
 //  Created by iwtkings on 2020/09/23.
-//  Copyright © 2020 BSoft. All rights reserved.
+//  Copyright © 2020 common. All rights reserved.
 //
 
 #import "YYAnimatedImageView+NHBugFix.h"

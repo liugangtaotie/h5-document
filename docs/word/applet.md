@@ -10,7 +10,7 @@ categories:
 
 <Boxx  changeTime="5000"/>  
 
-## [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#规范)规范
+## [#](https://xxx.com.cn/h5-document/word/applet.html#规范)规范
 
 - [W3C miniapp](https://w3c.github.io/miniapp)
 - [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/framework)
@@ -20,39 +20,39 @@ categories:
 - [京东小程序](https://mp.jd.com/docs/introduction)
 - [快应用](https://www.quickapp.cn/)
 
-## [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#开发框架)开发框架
+## [#](https://xxx.com.cn/h5-document/word/applet.html#开发框架)开发框架
 
-### [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#dsl-及编译器)DSL 及编译器
+### [#](https://xxx.com.cn/h5-document/word/applet.html#dsl-及编译器)DSL 及编译器
 
 - [vue 转小程序](https://echizen.github.io/tech/2017/10-29-vue2wx)
 - [wxml 转译器实现过程分析](https://github.com/IOriens/ioriens.github.io/issues/5)
 - [从零开始写一个wepy转VUE的工具](https://juejin.im/post/5c877cd35188257e3b14a1bc)
 
-### [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#多端转换工具)多端转换工具
+### [#](https://xxx.com.cn/h5-document/word/applet.html#多端转换工具)多端转换工具
 
 - [基于 AST 来转换微信和支付宝小程序](https://qianduan.group/posts/5a0fe3cc44aec04413ec3d7d)
 - [百度小程序搬家工具实现原理解析](http://www.dreawer.com.cn/news/672.html)
 
-### [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#mars)[Mars](https://github.com/max-team/Mars)
+### [#](https://xxx.com.cn/h5-document/word/applet.html#mars)[Mars](https://github.com/max-team/Mars)
 
 - [Mars - 又双叒叕一个多端开发框架？这次是 Vue 驱动，能完美适配 H5](https://juejin.im/post/5cbd34e7f265da036504fa3c)
 - [基于 Vue 的小程序开发框架性能优化实践---去除 VNode](https://juejin.im/post/5d3eafff6fb9a06aeb1095e9)
 - [Vue 驱动的小程序+H5同构开发框架@张文韬](https://node.fequan.com/playvideo/701606bc91ec5be86cbd20f39d9a963d_7)
 
-### [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#megalo)[Megalo](https://github.com/kaola-fed/megalo)
+### [#](https://xxx.com.cn/h5-document/word/applet.html#megalo)[Megalo](https://github.com/kaola-fed/megalo)
 
 - [megalo -- 网易考拉小程序解决方案](https://juejin.im/post/5bd2b014e51d457a7a0396ea)
 
-### [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#kbone)[Kbone](https://github.com/wechat-miniprogram/kbone)
+### [#](https://xxx.com.cn/h5-document/word/applet.html#kbone)[Kbone](https://github.com/wechat-miniprogram/kbone)
 
 - [Kbone 官方文档](https://wechat-miniprogram.github.io/kbone/docs)
 - [微信官方小程序同构新方案Kbone全解析](https://mp.weixin.qq.com/s/d2jZdmq2c0mOcXi9ALi4dw)
 - [小程序同构方案 kbone 分析与适配](http://www.alloyteam.com/2019/12/kbone-analyze)
 - [Kbone原理解析 & 小程序技术选型](https://developers.weixin.qq.com/community/develop/article/doc/0006a6326b8d38e56b998833456813)
 
-## [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#技术原理)技术原理
+## [#](https://xxx.com.cn/h5-document/word/applet.html#技术原理)技术原理
 
-### [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#微信小程序)微信小程序
+### [#](https://xxx.com.cn/h5-document/word/applet.html#微信小程序)微信小程序
 
 - [小程序架构设计(一)](https://developers.weixin.qq.com/community/develop/article/doc/000a4c1620c188f3adf7db9ab5b413)
 - [小程序架构设计(二)](https://developers.weixin.qq.com/community/develop/article/doc/000c8eba1ec3b8c7ce287954c53c13)
@@ -77,17 +77,17 @@ categories:
 - [浅谈小程序运行机制](https://segmentfault.com/a/1190000019131399)
 - [微信小程序setData源码分析](https://juejin.im/post/5d647ce26fb9a06ae8361b05)
 
-### [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#百度小程序)百度小程序
+### [#](https://xxx.com.cn/h5-document/word/applet.html#百度小程序)百度小程序
 
 - [百度智能小程序平台的架构思考与实践](https://myslide.cn/slides/21052)
 - [百度小程序源码解读](https://handsomeliuyang.github.io/2019/02/25/百度小程序源码解读/)
 
-### [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#支付宝小程序)支付宝小程序
+### [#](https://xxx.com.cn/h5-document/word/applet.html#支付宝小程序)支付宝小程序
 
 - [支付宝小程序技术架构全解析](https://www.infoq.cn/article/ullETz7q_Ue4dUptKgKC)
 - [支付宝小程序框架浅析及如何在 mPaaS 内深度集成](https://www.codercto.com/a/42556.html)
 
-### [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#其他)其他
+### [#](https://xxx.com.cn/h5-document/word/applet.html#其他)其他
 
 - [企业级小程序—大型 APP 研发模式 升级思考与实践](https://myslide.cn/slides/21848)
 - [钉钉 E 应用架构详解](https://blog.csdn.net/weixin_40322495/article/details/81325496)
@@ -105,11 +105,11 @@ categories:
 - [小程序自动化测试总结](https://imweb.io/topic/5d1a0c7df7b5692b080f2602)
 - [Mini App SDK for iOS Apps](https://github.com/rakutentech/ios-miniapp)
 
-### [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#快应用)快应用
+### [#](https://xxx.com.cn/h5-document/word/applet.html#快应用)快应用
 
 - [华为快应用引擎技术架构详解](https://www.infoq.cn/article/huawei-quickapp-engine-architecture)
 
-## [#](https://jkt.bsoft.com.cn/h5-document/word/applet.html#工具)工具
+## [#](https://xxx.com.cn/h5-document/word/applet.html#工具)工具
 
 - 微信解包工具: https://github.com/qwerty472123/wxappUnpacker
 - 微信小程序转换为 uni-app 项目：https://github.com/zhangdaren/miniprogram-to-uniapp

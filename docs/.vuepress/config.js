@@ -12,7 +12,7 @@ module.exports = {
   },
   themeConfig: {
     smoothScroll: true, // 启用页面滚动效果
-    site: "https://jkt.bsoft.com.cn/h5-document/", // 站点地址
+    site: "https://xxx.com.cn/h5-document/", // 站点地址
     logo: "/frontender.png", // 站点 Logo
     notFound: "/404.jpeg", // 404 页面背景图片
     // 添加导航栏
@@ -76,7 +76,7 @@ module.exports = {
         items: [
           {
             text: "main",
-            link: "https://jkcs.bsoft.com.cn/learning/h5/h5-document",
+            link: "https://jkcs.common.com.cn/learning/h5/h5-document",
           },
         ],
         icon: "reco-github",
@@ -306,7 +306,7 @@ module.exports = {
     //     },
     //     bottomInfo: {
     //       btnText: '关于',
-    //       linkTo: 'https://jkcs.bsoft.com.cn/learning/h5/h5-document',
+    //       linkTo: 'https://jkcs.common.com.cn/learning/h5/h5-document',
     //     },
     //     closeOnce: false,
     //   },

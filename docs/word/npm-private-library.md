@@ -13,15 +13,15 @@ categories:
 ## 使用verdaccio搭建私有npm仓库
 
 ### 当前npm 私有仓库有以下包：
-[私有仓库地址](http://pri-npm.atag.bsoft.com.cn/)
+[私有仓库地址](http://pri-npm.atag.common.com.cn/)
 
-|               包名                |                    说明                     |    备注    |
-|:---------------------------------:|:-------------------------------------------:|:----------:|
-| @bsoft/bs-common-element-web-code |         基于webpack的单页面web app          | 版本v0.1.4 |
-|       @bsoft/bs-common-util       |                通用js工具类                 | 版本v1.2.3 |
-|      @bsoft/bs-js-to-native       |               js与native通信                | 版本v1.0.3 |
-|        @bsoft/bs-common-ui        |     基于uView UI,适配不同终端的解决方案     | 版本v1.0.8 |
-|     @bsoft/bs-common-ui-next      | 基于uView UI,适配不同终端的解决方案(vue3.x) | 版本v1.0.4 |
+|                包名                |                    说明                     |    备注    |
+|:----------------------------------:|:-------------------------------------------:|:----------:|
+| @common/bs-common-element-web-code |         基于webpack的单页面web app          | 版本v0.1.4 |
+|       @common/bs-common-util       |                通用js工具类                 | 版本v1.2.3 |
+|      @common/bs-js-to-native       |               js与native通信                | 版本v1.0.3 |
+|        @common/bs-common-ui        |     基于uView UI,适配不同终端的解决方案     | 版本v1.0.8 |
+|     @common/bs-common-ui-next      | 基于uView UI,适配不同终端的解决方案(vue3.x) | 版本v1.0.4 |
 
 ## 一、为何选择
 
@@ -90,16 +90,16 @@ nrm use xxx      //  使用npm源
 
 ## 六、使用规则
 
-* 1.在git上新建一个私有仓库组bsoft-xx，本质是为了避免和外来node包冲突
-* 2.然后再在bsoft-xx中新建私有项目，比如bs-common-element-web-code
+* 1.在git上新建一个私有仓库组common-xx，本质是为了避免和外来node包冲突
+* 2.然后再在common-xx中新建私有项目，比如bs-common-element-web-code
 * 3.版本问题【尽可能兼容低版本，未兼容部分，需要告知为什么不能实现】
-* 4.限制发布者权限、对bsoft-xx中的项目进行命名审核，以及更新迭代代码的审核
+* 4.限制发布者权限、对common-xx中的项目进行命名审核，以及更新迭代代码的审核
 * 5.所有的发布私有包，必须走git流程，不能私底下违规发布
 * 6.还在完善中……
 
 ## 七、实战截图
 
-* 1、git上面的地址---智慧健康通-通用（element ui）-底层架构: [gitlab - 源码](https://jkcs.bsoft.com.cn/bs-standard-repo/fore-end/bs-common-element-web-code)
+* 1、git上面的地址---智慧健康通-通用（element ui）-底层架构: [gitlab - 源码](https://jkcs.common.com.cn/bs-standard-repo/fore-end/bs-common-element-web-code)
 
 如下图：
 ![Image text](../assets/images/npm/npm01.png)
@@ -124,7 +124,7 @@ nrm use xxx      //  使用npm源
 如下图：
 ![Image text](../assets/images/npm/npm05.png)
 
-* 6、食用：npm i bsoft-xx
+* 6、食用：npm i common-xx
 
 如下图：
 ![Image text](../assets/images/npm/npm03.png)
