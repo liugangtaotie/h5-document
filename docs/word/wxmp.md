@@ -16,7 +16,7 @@ categories:
 
 [ 注意: 下面的说明仅供参考,会由于项目变更而发生变化,请随时保持沟通! ]()
 
-[gitlab - 源码](http://jkcs.common.com.cn/bs-standard-repo/fore-end/wxmp.git)
+[gitlab - 源码](https://github.com/liugangtaotie/vite2-vue2-ts)
 
 ## 二、Build Setup(本地开发)
 
@@ -47,10 +47,7 @@ npm run build:development / make test | make dev
 
 # 打包发布环境中用的包,会使用上面文件中, build:production对应的参数（根据不同的环境使用不同的打包配置参数）
 online: npm run build:production / make pro
-zk: npm run build:productionZK / make zk
-ys: npm run build:productionYS / make ys
-dm: npm run build:productionDM / make dm
-dmzk: npm run build:productionDMZK / make dmzk
+
 
 ```
 
@@ -331,70 +328,5 @@ export WXPACK_CONFIG_COMPONENT_APPID = wx7732u32378237823
   "workbench.colorTheme": "SynthWave '84",
   "javascript.updateImportsOnFileMove.enabled": "always", // 这个是样式，包括火焰，烟火，魔法等
 }
-
-```
-
-## 十、不同环境的基础域名（对接域名）
-
-``` bash
-开发环境（测试环境）：
-https://xxx.com.cn/dist/#/ + 路由
-
-比如：路由（具体对接的路由名称），隔离服务：
-https://xxx.com.cn/dist/#/isolationService
-
-
-质控环境：
-https://xxx.com.cn/dist-zk/#/+路由
-
-比如：路由（具体对接的路由名称），隔离服务：
-https://xxx.com.cn/dist-zk/#/isolationService
-
-
-演示环境：
-https://xxx.com.cn/dist-ys/#/+路由；
-
-比如：路由（具体对接的路由名称），隔离服务：
-https://xxx.com.cn/dist-ys/#/isolationService
-
-
-```
-
-## 十一、打包流程解析以及对应的jenkins/rancher
-
-``` bash
-1、打包流程解析
-
-A、当前分支的源代码：npm run build:production / make pro  生成dist 文件;
-
-B、需要另外一个项目：http://jkcs.common.com.cn/bs-standard-repo/fore-end/wxmp-dist.git ;
-
-C、根据本地打包的参数，对应于wxmp-dist 分支号，比如：打包的参数选择的是hcn-web(develop),那么对应wxmp-dist 分支对应选择develop;
-
-2、打包对应jenkins/rancher
-
-开发环境：jenkins->http://jenkins.atag.common.com.cn/ 项目名称：dev->hc-wxmp-v3.2-dist
-
-        Rancher->http://rancher.atag.common.com.cn/env/1a5/apps/stacks 项目名称：dev->hc-wxmp-dist
-
-        开发分支：develop 对应 wxmp-dist: develop
-
-质控环境：jenkins->http://jenkins.atag.common.com.cn/ 项目名称：dev->hc-wxmp-v3.2-dist-zk
-
-        Rancher->http://rancher.zk.atag.common.com.cn/env/1a5/apps/stacks  项目名称：质控环境->hc-wxmp
-
-        质控分支：develop 对应 wxmp-dist: zk
-
-演示环境：jenkins->http://jenkins.demojkcs.atag.common.com.cn/ 项目名称：dev->hc-wxmp-dist
-
-        Rancher->http://rancher.demojkcs.atag.common.com.cn/env/1a5/apps/stacks 项目名称：演示环境->wxmp-dist
-
-        演示分支：develop 对应 wxmp-dist: ys
-
-达梦环境：jenkins->http://jenkins.dm.atag.common.com.cn/ 项目名称：dev->hc-wxmp-dist
-
-        Rancher-> http://rancher.dm.atag.common.com.cn/login 项目名称：达梦环境->wxmp-dist
-
-        达梦分支：develop 对应 wxmp-dist: dm
 
 ```
