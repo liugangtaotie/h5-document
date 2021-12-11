@@ -53,10 +53,6 @@ categories:
 
 应用隔离：css module 
 
-
-
-
-
 ## 二. 从哪里来？
 
 来源于single-spa, 旨在帮助大家能更简单、无痛的构建一个生产可用微前端架构系统。
@@ -107,3 +103,4 @@ categories:
 
 [Micro Frontends](https://micro-frontends.org/)
 
+[手写一个微前端框架（内含源码地址）](https://blog.csdn.net/lunahaijiao/article/details/108016383)
