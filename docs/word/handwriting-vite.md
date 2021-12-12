@@ -18,9 +18,52 @@ categories:
 
 ### 一、是什么
 
-vite是什么，
+有关vite是什么，请移步我的另一篇文章  [vite](/word/vite.html)；
 
 
+![Image text](../assets/images/vite/step1.png)
+
+
+![Image text](../assets/images/vite/step2.png)
+
+![Image text](../assets/images/vite/step3.png)
+
+![Image text](../assets/images/vite/step4.png)
+
+![Image text](../assets/images/vite/step5.png)
+
+
+![Image text](../assets/images/vite/step6.png)
+
+![Image text](../assets/images/vite/step7.png)
+
+![Image text](../assets/images/vite/step8.png)
+
+![Image text](../assets/images/vite/step9.png)
+
+
+![Image text](../assets/images/vite/step10.png)
+
+
+![Image text](../assets/images/vite/step12.png)
+
+![Image text](../assets/images/vite/step13.png)
+
+
+![Image text](../assets/images/vite/step14.png)
+
+![Image text](../assets/images/vite/step15.png)
+
+![Image text](../assets/images/vite/step16.png)
+
+![Image text](../assets/images/vite/step17.png)
+
+
+![Image text](../assets/images/vite/step18.png)
+
+![Image text](../assets/images/vite/step19.png)
+
+![Image text](../assets/images/vite/step20.png)
 
 
 ### 推荐的官方文档
