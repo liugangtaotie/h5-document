@@ -120,6 +120,7 @@ module.exports = {
         "web-component",
         "module-federation",
         "vue-ssr",
+        "handwriting-vite",
       ],
       "/pangxl/": ["webpack", "unit-test"],
       "/wangx/": ["one"],

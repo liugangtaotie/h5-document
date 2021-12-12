@@ -51,7 +51,7 @@ categories:
 
 路由及应用导入：方便
 
-应用隔离：css module 
+应用隔离：css module
 
 ## 二. 从哪里来？
 
