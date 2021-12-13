@@ -169,6 +169,17 @@ export default defineConfig({
 
 以下将实现一个简易版的vite
 
+首先要解决的问题：
+
+1、引入第三方库，比如vue
+
+2、css 支持
+
+3、文件.vue支持
+
+4、文件.ts支持
+
+
 第一步：新建一个handwritingVite项目，再新建一个index.html文件，改造一下基本内容
 
 ``` html
@@ -468,5 +479,7 @@ App.listen(3000, () => {
 - [前端技术分享](https://www.jianshu.com/p/9c62dd5003c6)
 
 - [Vite 生态概览](https://patak.dev/vite/ecosystem.html)
+
+- [然叔-天天造轮子-手写Vite](https://www.bilibili.com/video/BV1Df4y1n777?p=1)
 
 - [vite多久后能干掉webpack？](https://www.zhihu.com/question/477139054/answer/2156019180?utm_source=wechat_timeline&utm_medium=social&utm_oi=989873592787734528)
