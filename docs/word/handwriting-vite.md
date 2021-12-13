@@ -173,11 +173,11 @@ export default defineConfig({
 
 1、引入第三方库，比如vue
 
-2、css 支持
+2、css 支持，把css 转化为js 代码方式，利用js添加一个style标签
 
-3、文件.vue支持
+3、文件.vue支持，SFC(单文件组件的支持)
 
-4、文件.ts支持
+4、文件.ts支持，JSX(react)语法糖
 
 
 第一步：新建一个handwritingVite项目，再新建一个index.html文件，改造一下基本内容
@@ -238,7 +238,7 @@ console.info('vite:' + 'hello world')
 第五步：刷新当前页面，console下面输出`vite:hello world`
 ![Image text](../assets/images/vite/step25.png)
 
-第六步：在main.js 加入 es-module
+第六步：在main.js 加入 es-module 写法，比如 `import xxx from xx`
 
 ``` javascript
 main.js
@@ -473,6 +473,44 @@ App.listen(3000, () => {
 
 第二十一步：刷新index.html ，查看当前页面，出现hello world，这样真正大功告成，基本实现vite的基本功能
 ![Image text](../assets/images/vite/step41.png)
+
+### 彩蛋
+
+vite是如何处理 css 文件
+
+第一步：新建index.css文件
+![Image text](../assets/images/vite/step42.png)
+
+第二步：刷新index.html，查看是否生效
+![Image text](../assets/images/vite/step43.png)
+
+第三步：改造index.js , 添加如下代码
+
+``` javascript
+...
+  // css 文件
+  else if (url.endsWith('.css')) {
+    const p = path.resolve(__dirname, url.slice(1))
+    const file = fs.readFileSync(p, 'utf-8')
+    const content = `
+    const css = "${file.replace(/\n/g, '')}"
+    let link = document.createElement('style')
+    link.setAttribute('type','text/css')
+    document.head.appendChild(link)
+    link.innerHTML = css
+    export default css
+    `
+    cxt.type = 'application/javascript'
+    cxt.body = content
+  }
+...
+
+```
+
+![Image text](../assets/images/vite/step44.png)
+
+第四步：刷新index.html ，这样vite 实现解析css文件就大功告成！！！
+![Image text](../assets/images/vite/step45.png)
 
 ### 推荐的官方文档
 
