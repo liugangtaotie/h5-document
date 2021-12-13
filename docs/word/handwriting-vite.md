@@ -465,6 +465,8 @@ App.listen(3000, () => {
 
 ### 推荐的官方文档
 
+- [前端技术分享](https://www.jianshu.com/p/9c62dd5003c6)
+
 - [Vite 生态概览](https://patak.dev/vite/ecosystem.html)
 
 - [vite多久后能干掉webpack？](https://www.zhihu.com/question/477139054/answer/2156019180?utm_source=wechat_timeline&utm_medium=social&utm_oi=989873592787734528)
