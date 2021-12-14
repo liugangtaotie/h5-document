@@ -31,21 +31,3 @@ mkdir docs && echo '# Hello VuePress' > docs/README.md
 
 yarn docs:dev # npm run docs:dev
 VuePress 会在 http://localhost:8080 启动一个热重载的开发服务器。
-
-# 7、文档如何打包发布
-``` bash
-1、打包流程解析
-
-A、当前分支的源代码：npm run docs:build / make pro  生成dist 文件;
-
-B、需要另外一个项目：http://jkcs.common.com.cn/learning/h5/h5-document-dist.git ;
-
-
-2、打包对应jenkins/rancher
-
-开发环境：jenkins->http://jenkins.atag.common.com.cn/ 项目名称：dev->hc-h5-document-dist
-
-        Rancher->http://rancher.atag.common.com.cn/env/1a5/apps/stacks 项目名称：dev->h5-document->hc-h5-document-dist
-
-        开发分支：master 对应 h5-document-dist: master
-```
