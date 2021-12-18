@@ -10,7 +10,7 @@ categories:
 
 <template>
 
-<div class="head">一、智慧健康通标准版小程序</div>
+<div class="head">一、xxx标准版小程序</div>
 <div class="flex wrap">
 <div class="flex-item" v-for="(item,index) in golMiniDataList" :key="index">
   <div class="flex flex-center">
@@ -21,7 +21,7 @@ categories:
 </div>
 </div>
 
-<div class="head second-title">二、互联网医院标准版小程序</div>
+<div class="head second-title">二、xxx标准版小程序</div>
 <div class="flex wrap">
 <div class="flex-item" v-for="(item,index) in holMiniDataList" :key="index">
   <div class="flex flex-center">

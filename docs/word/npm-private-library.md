@@ -99,7 +99,7 @@ nrm use xxx      //  使用npm源
 
 ## 七、实战截图
 
-* 1、git上面的地址---智慧健康通-通用（element ui）-底层架构: [gitlab - 源码](https://jkcs.common.com.cn/xx-standard-repo/fore-end/xx-common-element-web-code)
+* 1、git上面的地址---xxx-通用（element ui）-底层架构: [gitlab - 源码](https://jkcs.common.com.cn/xx-standard-repo/fore-end/xx-common-element-web-code)
 
 如下图：
 ![Image text](../assets/images/npm/npm01.png)

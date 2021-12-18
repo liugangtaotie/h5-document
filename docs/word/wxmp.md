@@ -53,40 +53,6 @@ online: npm run build:production / make pro
 
 ## 三、本地开发调试（注意事项）
 
-1. 由于本工程涉及到微信公众号授权申请,所以无法在本地的开发环境中,走通这个项目的流程. 
-2. 可以先在本地调试好业务逻辑之后,再上传到服务器,来走通微信授权.
-3. 在本地调试业务,可以对代码做如下的修改:
-找到文件src/api/main.ts,找到init函数,作如下修改
-
-```javascript
-  init: function (params) {
-    // 在该函数最前端插入下面的代码,下面的wxOpenid需要你根据不同的服务环境,找后台人员获取,替换成实际的wxOpenid
-    // 这样,就可以直接在本地来测试业务逻辑了，特别注意，init里面注释的wxOpenid是开发人员或者测试人员的，可以用来开发
-     const wxOpenidTrue = "ogp6dwv3yj0MLCa6yartxFPz3SLw";
-      window.localStorage.setItem("wxOpenid", wxOpenidTrue);
-      return this.doLoginByWxOpenId(wxOpenidTrue);
-    ....
-    ....
-  }
-```
-
- 4.登录权限判断:
-找到文件src/router/**.ts,作如下修改 在meta中添加属性（requiresAuth:true）,其他修改依次类推
-
-```javascript
-   // 居民首页
-  {
-    path: '/home',
-    meta: {
-      requiresAuth: true,
-      keepAlive: false,
-      title: '首页'
-    },
-    component: resolve => require(['../views/home/home.vue'], resolve)
-  },
-```
-
- 5.本地提交代码:
  为了保持代码风格的统一性，提交代码之前，先执行（再提交代码）->
  windows: npm run autofix;
  mac: make autofix
@@ -173,84 +139,17 @@ online: npm run build:production / make pro
     |-- vue.config.js(vue 基本配置)
     |-- yarn.lock
 ```
-
-## 五、线上调试
-
-当项目代码,部署到线上之后,可以使用微信公众平台提供的`web开发者工具`来进行调试
-
-### 使用环境变量来配置打包的业务参数,适用于docker中的部署,参数如下:
-
-注意:如果配置下面的环境变量,打包时将不再使用config/api.js中的配置.而是直接使用下面环境变量中的配置.
-
-```
-#是否使用环境变量
-export WXPACK_CONFIG_FROM_ENV=1   
-#图片地址前缀
-export WXPACK_CONFIG_IMGPREVIEWURL=http://http://xxx.com.cn/hcn-web/upload
-#新闻请求的PCN链接
-export WXPACK_CONFIG_NEWSURL=http://http://xxx.com.cn/pcn-core
-#新闻内容的HTML文件前缀
-export WXPACK_CONFIG_NEWSDETAILURL=http://http://xxx.com.cn/pcn-core/h5/views/resident/healthnews.html
-#健康档案地址前缀
-export WXPACK_CONFIG_HEALTHDOCURL=http://221.233.192.130:8888/ehrview/redirect?user=system&password=123&idCard=
-#通用服务
-export WXPACK_CONFIG_SERVICEURL=http://http://xxx.com.cn/hcn-web
-#租户iD
-export WXPACK_CONFIG_TENANTID=hcn.dongtai
-#公众号APPID
-export WXPACK_CONFIG_APPID=wx4ff1515c85d65af8
-export WXPACK_CONFIG_ROLEID=patient
-#公众号名称
-export WXPACK_CONFIG_TITLE=健康东台
-#公众号的关注链接
-export WXPACK_CONFIG_ATTENTATIONWXACCOUNT=https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2NTEwOTYzNA==&scene=124#wechat_redirect
-#如果是公众号第三方接入,需要配置Component Id
-export WXPACK_CONFIG_COMPONENT_APPID = wx7732u32378237823
-```
-
-## 六、前端代码编写规范
+## 五、前端代码编写规范
 
 查看codeSpecification.md文档
 
-## 七、前端打包webpack配置信息一览
+## 六、前端打包webpack配置信息一览
 
 核心一点就是： cmd 中敲 vue inspect > output.js(默认是 development) , 这样我们会得到一份最终生效的 webpack 配置信息:
         development: vue inspect > outputDev.js;
         production: vue inspect > outputProd.js --mode production.
 
-## 八、常见问题
-
-``` bash
-1、项目一般执行顺序
-     a、第一次：  菜单->获取微信授权->(code + state) -> loginByCode-> (wxOpenid + accessToken) ->   getAppInfoByDevice ->  首页
-     b、再次进入：localStorage->wxOpenid->loginByOpenId->accessToken->   getAppInfoByDevice ->  首页
-     c、解绑后：  菜单->获取微信授权->(code + state) -> loginByCode-> (wxOpenid + accessToken) ->   getAppInfoByDevice ->  首页
-
-2、如果出现内存溢出，需要修改vue.config.js->148行： 这个地方改成4096
-           let allowUseMem = totalmem > 2048 ? 8192 : 2048;
-           -> let allowUseMem = totalmem > 2048 ? 4096 : 2048;
-
-3、如果本地开发： 可以注掉一些不相关的路由， 这样本地运行就很快了， 记得打包把它还原回去；
-
-4、如何在本地写css样式 (一个.vue 文件包含template/script/style)
-   a、如果是在template模块里面直接引入全局定义, 可以看一下全局定义样式（src/assets/css/style.css），可以直接引用，使代码简洁；比如（mt5、text-right等）
-   b、如果是在style模块里面写样式，可以看一下全局定义样式（src/assets/stylus/index.styl），可以直接使用全局变量，使代码修改简洁；比如（color_price、font_size_14等）
-   c、其余样式根据具体业务进行编码，注意有全局的一定要引用全局的，全局没有定义，根据情况，在全局里面加入全局变量，否则就具体问题具体分析。
-
-5、本地开发修改van-ui(组件库)样式：
-   /deep/ .van-cell {
-    min-height: 1rem;
-  }
-  可以根据具体的需求，在某个样式前，加入/deep/ , 就可以修改具体引入的组件库样式；
-
-6、本地开发如果要引入图标，建议使用雪碧图；
-   如何使用：直接拖动将要引入的图标到src/assets/icons/ 下，然后对应看一下 src/assets/css/sprites-generated.png，src/assets/css/sprites-generated.css，在模块里面引用一般是（<i class="w_icon w_icon_**********"></i>）。
-
-7、本地打包： 一般执行完dll后（一般只执行一次，就是项目初始化的时候，如果你在dll模块里面加入了其他包，需要再执行一次，否则以后打线上包的时候都不需要再执行了），打包时间大约是30s；mac 一般打包时间（20s）
-
-```
-
-## 九、vs code setting(统一编码风格)
+## 七、vs code setting(统一编码风格)
 
 ``` bash
 {

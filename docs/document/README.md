@@ -182,7 +182,7 @@ export WXPACK_CONFIG_IMGPREVIEWURL=http://http://xxx.com.cn/hcn-web/upload
 export WXPACK_CONFIG_NEWSURL=http://http://xxx.com.cn/pcn-core
 #新闻内容的HTML文件前缀
 export WXPACK_CONFIG_NEWSDETAILURL=http://http://xxx.com.cn/pcn-core/h5/views/resident/healthnews.html
-#健康档案地址前缀
+#xxx档案地址前缀
 export WXPACK_CONFIG_HEALTHDOCURL=http://221.233.192.130:8888/ehrview/redirect?user=system&password=123&idCard=
 #通用服务
 export WXPACK_CONFIG_SERVICEURL=http://http://xxx.com.cn/hcn-web
@@ -192,7 +192,7 @@ export WXPACK_CONFIG_TENANTID=hcn.dongtai
 export WXPACK_CONFIG_APPID=wx4ff1515c85d65af8
 export WXPACK_CONFIG_ROLEID=patient
 #公众号名称
-export WXPACK_CONFIG_TITLE=健康东台
+export WXPACK_CONFIG_TITLE=xxx东台
 #公众号的关注链接
 export WXPACK_CONFIG_ATTENTATIONWXACCOUNT=https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2NTEwOTYzNA==&scene=124#wechat_redirect
 #如果是公众号第三方接入,需要配置Component Id
