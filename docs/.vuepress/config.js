@@ -297,5 +297,4 @@ module.exports = {
     //   },
     // ],
   ],
-  base: "/h5-document/",
 };
