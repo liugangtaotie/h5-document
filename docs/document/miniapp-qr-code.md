@@ -32,7 +32,7 @@ categories:
 </div>
 </div>
 
-<div class="head second-title">三、bs-common-ui（小程序二维码）</div>
+<div class="head second-title">三、xx-common-ui（小程序二维码）</div>
 <div class="flex wrap">
 <div class="flex-item" >
   <div class="flex flex-center">
@@ -41,7 +41,7 @@ categories:
 </div>
 </div>
 
-<div class="head second-title">四、bs-common-ui-next（小程序二维码）</div>
+<div class="head second-title">四、xx-common-ui-next（小程序二维码）</div>
 <div class="flex wrap">
 <div class="flex-item" >
   <div class="flex flex-center">

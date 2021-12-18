@@ -53,13 +53,13 @@ categories:
 
 |     项目环境     |                jenkins 地址                |                  项目                   |               rancher   地址               |                部署项目                 |
 |:----------------:|:------------------------------------------:|:---------------------------------------:|:------------------------------------------:|:---------------------------------------:|
-| 微信公众号(dev)  | http://jenkins.dev.hol.atag.common.com.cn/ |    bs-nethospital-wechat-alipay-dist    | http://rancher.dev.hol.atag.common.com.cn/ |    bs-nethospital-wechat-alipay-dist    |
+| 微信公众号(dev)  | http://jenkins.dev.hol.atag.common.com.cn/ |    xx-nethospital-wechat-alipay-dist    | http://rancher.dev.hol.atag.common.com.cn/ |    xx-nethospital-wechat-alipay-dist    |
 |  微信公众号(zk)  |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
-| 公共patient(dev) |                    同上                    |    bs-nethospital-base-service-dist     | http://rancher.dev.hol.atag.common.com.cn/ |    bs-nethospital-base-service-dist     |
+| 公共patient(dev) |                    同上                    |    xx-nethospital-base-service-dist     | http://rancher.dev.hol.atag.common.com.cn/ |    xx-nethospital-base-service-dist     |
 | 公共patient(zk)  |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
-| 公共doctor(dev)  |                    同上                    | bs-nethospital-base-service-doctor-dist | http://rancher.dev.hol.atag.common.com.cn/ | bs-nethospital-base-service-doctor-dist |
+| 公共doctor(dev)  |                    同上                    | xx-nethospital-base-service-doctor-dist | http://rancher.dev.hol.atag.common.com.cn/ | xx-nethospital-base-service-doctor-dist |
 |  公共doctor(zk)  |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
-|  管理平台(dev)   |                    同上                    |         bs-nethospital-web-dist         | http://rancher.dev.hol.atag.common.com.cn/ |         bs-nethospital-web-dist         |
+|  管理平台(dev)   |                    同上                    |         xx-nethospital-web-dist         | http://rancher.dev.hol.atag.common.com.cn/ |         xx-nethospital-web-dist         |
 |   管理平台(zk)   |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
 | 公共mobile(dev)  |                    同上                    |            common-mobile-hlw            | http://rancher.dev.hol.atag.common.com.cn/ |            common-mobile-hlw            |
 |  公共mobile(zk)  |                    同上                    |                  同上                   | http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
@@ -90,13 +90,13 @@ categories:
 
 |     项目环境     |               rancher   地址                |                部署项目                 |
 |:----------------:|:-------------------------------------------:|:---------------------------------------:|
-| 微信公众号(dev)  | hhttp://rancher.dev.hol.atag.common.com.cn/ |    bs-nethospital-wechat-alipay-dist    |
+| 微信公众号(dev)  | hhttp://rancher.dev.hol.atag.common.com.cn/ |    xx-nethospital-wechat-alipay-dist    |
 |  微信公众号(zk)  |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
-| 公共patient(dev) | hhttp://rancher.dev.hol.atag.common.com.cn/ |    bs-nethospital-base-service-dist     |
+| 公共patient(dev) | hhttp://rancher.dev.hol.atag.common.com.cn/ |    xx-nethospital-base-service-dist     |
 | 公共patient(zk)  |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
-| 公共doctor(dev)  | hhttp://rancher.dev.hol.atag.common.com.cn/ | bs-nethospital-base-service-doctor-dist |
+| 公共doctor(dev)  | hhttp://rancher.dev.hol.atag.common.com.cn/ | xx-nethospital-base-service-doctor-dist |
 |  公共doctor(zk)  |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
-|  管理平台(dev)   | http://rancher.dev.hol.atag.common.com.cn/  |         bs-nethospital-web-dist         |
+|  管理平台(dev)   | http://rancher.dev.hol.atag.common.com.cn/  |         xx-nethospital-web-dist         |
 |   管理平台(zk)   |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |
 | 公共mobile(dev)  | http://rancher.dev.hol.atag.common.com.cn/  |            common-mobile-hlw            |
 |  公共mobile(zk)  |  http://rancher.zk.hol.atag.common.com.cn/  |                  同上                   |

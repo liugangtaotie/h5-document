@@ -4,7 +4,7 @@
 
 [ 注意: 下面的说明仅供参考,会由于项目变更而发生变化,请随时保持沟通! ]()
 
-[gitlab - 源码](http://jkcs.common.com.cn/bs-standard-repo/fore-end/wxmp.git)
+[gitlab - 源码](http://jkcs.common.com.cn/xx-standard-repo/fore-end/wxmp.git)
 
 ## 二、Build Setup(本地开发)
 
@@ -355,7 +355,7 @@ https://xxx.com.cn/dist-ys/#/isolationService
 
 A、当前分支的源代码：npm run build:production / make pro  生成dist 文件;
 
-B、需要另外一个项目：http://jkcs.common.com.cn/bs-standard-repo/fore-end/wxmp-dist.git ;
+B、需要另外一个项目：http://jkcs.common.com.cn/xx-standard-repo/fore-end/wxmp-dist.git ;
 
 C、根据本地打包的参数，对应于wxmp-dist 分支号，比如：打包的参数选择的是hcn-web(develop),那么对应wxmp-dist 分支对应选择develop;
 
