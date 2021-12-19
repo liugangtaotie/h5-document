@@ -171,10 +171,10 @@ module.exports = {
       },
     ],
     [
-      //先安装在配置， npm install @vuepress-plugin-meting --save
+      // 先安装在配置， npm install @vuepress-plugin-meting --save
       "meting",
       {
-        metingApi: "https://api.i-meto.com/meting/api",
+        metingApi: "https://api.injahow.cn/meting/",
         meting: {
           server: "netease",
           type: "playlist",
