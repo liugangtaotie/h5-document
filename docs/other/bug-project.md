@@ -1,4 +1,12 @@
-# bug-project
+---
+title: bug-project
+author: wuxiang
+date: 2021-03-20
+tags:
+ - tag5
+categories:
+ - category1
+---
 
 ## 关于升级iOS14之后，使用YBImageBrowser框架浏览图片之后显示黑屏的解决方案
 
@@ -22,9 +30,9 @@ iOS 14.0 YYAnimatedImageView 无法显示正常图片
 .h文件
 ```ruby
 //
-//  E-mail: iwtkings@163.com
+//  E-mail: xxx@163.com
 //
-//  Created by iwtkings on 2020/09/23.
+//  Created by xxx on 2020/09/23.
 //  Copyright © 2020 common. All rights reserved.
 //
 
@@ -43,9 +51,9 @@ NS_ASSUME_NONNULL_END
 .m文件
 ```ruby
 //
-//  E-mail: iwtkings@163.com
+//  E-mail: xxx@163.com
 //
-//  Created by iwtkings on 2020/09/23.
+//  Created by xxx on 2020/09/23.
 //  Copyright © 2020 common. All rights reserved.
 //
 

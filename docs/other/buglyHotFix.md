@@ -1,4 +1,12 @@
-# Bugly热更新
+---
+title: BuglyHotFix
+author: wuxiang
+date: 2020-08-20
+tags:
+ - tag5
+categories:
+ - category1
+---
 
 ## Bugly账号注册
 
