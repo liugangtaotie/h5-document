@@ -41,7 +41,10 @@ module.exports = {
       {
         text: "文章",
         link: "/word/",
-        items: [{ text: "刘刚", link: "/word/wxmp" }],
+        items: [
+          { text: "日常", link: "/word/wxmp" },
+          { text: "其他", link: "/other/bug-project" },
+        ],
         icon: "reco-blog",
       },
       {
@@ -106,14 +109,19 @@ module.exports = {
         "vue-ssr",
         "handwriting-vite",
       ],
-      "/pangxl/": ["webpack", "unit-test"],
-      "/wangx/": ["one"],
-      "/iwtkings/": ["one", "bug-project"],
-      "/yuecf/": ["one", "fastlane"],
-      "/zhangsp/": ["one"],
-      "/huasx/": ["one"],
-      "/cuijx/": ["one", "buglyHotFix"],
-      "/shenrj/": ["Vue3", "Vue3-2"],
+      "/other/": [
+        "bug-project",
+        "bugly",
+        "buglyHotFix",
+        "fastlane",
+        "Jenkins",
+        "mock",
+        "mock-two",
+        "unit-test",
+        "Vue3",
+        "Vue3-2",
+        "webpack",
+      ],
     },
 
     startYear: "2020", // 项目开始时间，只填写年份

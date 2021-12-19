@@ -1,6 +1,6 @@
 ---
 title: Vue3新特性
-author: shenrj
+author: wuxiang
 date: 2021-08-26
 tags:
  - tag5

@@ -1,4 +1,4 @@
-#                           webpack初级篇
+# webpack初级篇
 
 ## webpack基础配置
 

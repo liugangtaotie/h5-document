@@ -1,6 +1,6 @@
 ---
 title: Jenkins自动化部署
-author: panshuangshuang
+author: wuxiang
 date: 2021-06-20
 tags:
  - tag5

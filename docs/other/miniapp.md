@@ -1,6 +1,6 @@
 ---
 title: 个人微信小程序注册上传流程
-author: yuecf
+author: wuxiang
 date: 2020-12-03
 tags: '微信小程序'
 ---

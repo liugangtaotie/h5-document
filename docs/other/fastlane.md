@@ -1,6 +1,6 @@
 ---
 title: 使用fastlane 自动打包
-author: yuecf
+author: wuxiang
 date: 2021-1-12
 tags: 'fastlane'
 ---
