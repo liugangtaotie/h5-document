@@ -6,8 +6,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs --open --host \"localhost\"",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs --open --host \"localhost\"",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-comments": "^1.5.7",
