@@ -12,11 +12,20 @@ module.exports = {
   },
   themeConfig: {
     smoothScroll: true, // 启用页面滚动效果
-    site: "https://xxx.com.cn/h5-document/", // 站点地址
+    site: "https://liugangtaotie.github.io/", // 站点地址
     logo: "/frontender.png", // 站点 Logo
     notFound: "/404.jpeg", // 404 页面背景图片
     // 添加导航栏
     nav: [
+      {
+        text: "文章",
+        link: "/word/",
+        items: [
+          { text: "日常", link: "/word/handwriting-vite" },
+          { text: "其他", link: "/other/bug-project" },
+        ],
+        icon: "reco-blog",
+      },
       {
         text: "文档",
         link: "/document/",
@@ -39,15 +48,6 @@ module.exports = {
         icon: "reco-message",
       },
       {
-        text: "文章",
-        link: "/word/",
-        items: [
-          { text: "日常", link: "/word/handwriting-vite" },
-          { text: "其他", link: "/other/bug-project" },
-        ],
-        icon: "reco-blog",
-      },
-      {
         text: "tag",
         link: "/tag/",
         icon: "reco-tag",
@@ -63,7 +63,7 @@ module.exports = {
         items: [
           {
             text: "main",
-            link: "https://jkcs.common.com.cn/learning/h5/h5-document",
+            link: "https://github.com/liugangtaotie/h5-document.git",
           },
         ],
         icon: "reco-github",
@@ -193,7 +193,7 @@ module.exports = {
           fixed: true,
           mini: true,
           // 自动播放
-          autoplay: true,
+          autoplay: false,
           // 歌曲栏折叠
           listFolded: true,
           // 颜色

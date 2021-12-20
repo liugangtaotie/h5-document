@@ -35,7 +35,7 @@ categories:
 </div>
 
 
-## [Getting Started](/document/js-native.html)
+## [Getting Started](/word/handwriting-vite.html)
 
 <style scoped>
 .flex {

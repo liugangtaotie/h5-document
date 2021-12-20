@@ -1,8 +1,8 @@
 {
   "name": "h5-document",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "大前端文档",
-  "author": "liugang2@common.com.cn",
+  "author": "lgcf1314@gmail.com",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -48,6 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://jkcs.common.com.cn/learning/h5/h5-document.git"
+    "url": "https://github.com/liugangtaotie/h5-document.git"
   }
 }
