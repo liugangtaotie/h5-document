@@ -150,34 +150,34 @@ module.exports = {
 
   // displayAllHeaders: true, // 默认值：false
   plugins: [
-    [
-      //先安装在配置， npm install @vuepress-reco/vuepress-plugin-kan-ban-niang --save
-      "@vuepress-reco/vuepress-plugin-kan-ban-niang",
-      {
-        theme: [
-          "wanko",
-          "blackCat",
-          "whiteCat",
-          "haru1",
-          "haru2",
-          "haruto",
-          "koharu",
-          "izumi",
-          "shizuku",
-          "miku",
-          "z16",
-        ],
-        clean: false,
-        messages: {
-          welcome: "我是lookroot欢迎你的关注 ",
-          home: "心里的花，我想要带你回家。",
-          theme: "好吧，希望你能喜欢我的其他小伙伴。",
-          close: "再见哦",
-        },
-        width: 240,
-        height: 352,
-      },
-    ],
+    // [
+    //   //先安装在配置， npm install @vuepress-reco/vuepress-plugin-kan-ban-niang --save
+    //   "@vuepress-reco/vuepress-plugin-kan-ban-niang",
+    //   {
+    //     theme: [
+    //       "wanko",
+    //       "blackCat",
+    //       "whiteCat",
+    //       "haru1",
+    //       "haru2",
+    //       "haruto",
+    //       "koharu",
+    //       "izumi",
+    //       "shizuku",
+    //       "miku",
+    //       "z16",
+    //     ],
+    //     clean: false,
+    //     messages: {
+    //       welcome: "我是lookroot欢迎你的关注 ",
+    //       home: "心里的花，我想要带你回家。",
+    //       theme: "好吧，希望你能喜欢我的其他小伙伴。",
+    //       close: "再见哦",
+    //     },
+    //     width: 240,
+    //     height: 352,
+    //   },
+    // ],
     [
       // 先安装在配置， npm install @vuepress-plugin-meting --save
       "meting",
