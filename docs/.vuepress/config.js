@@ -11,6 +11,7 @@ module.exports = {
     toc: { includeLevel: [2, 3] }, // 指定 [[toc]]
   },
   themeConfig: {
+    subSidebar: "auto",
     smoothScroll: true, // 启用页面滚动效果
     site: "https://liugangtaotie.github.io/", // 站点地址
     logo: "/frontender.png", // 站点 Logo
