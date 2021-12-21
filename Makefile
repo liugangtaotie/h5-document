@@ -3,7 +3,7 @@ default: help
 
 # build all theme
 dev:
-	npm run docs:dev
+	npm run dev
 
 analyz:
 	npm run analyz
@@ -21,7 +21,10 @@ test:
 	npm run build:development
 
 pro:
-	npm run docs:build
+	npm run build
+
+deploy:
+	npm run deploy
 
 lint:
 	npm run lint

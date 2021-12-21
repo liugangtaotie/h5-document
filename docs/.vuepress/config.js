@@ -12,11 +12,20 @@ module.exports = {
   },
   themeConfig: {
     smoothScroll: true, // 启用页面滚动效果
-    site: "https://xxx.com.cn/h5-document/", // 站点地址
+    site: "https://liugangtaotie.github.io/", // 站点地址
     logo: "/frontender.png", // 站点 Logo
     notFound: "/404.jpeg", // 404 页面背景图片
     // 添加导航栏
     nav: [
+      {
+        text: "文章",
+        link: "/word/",
+        items: [
+          { text: "日常", link: "/word/handwriting-vite" },
+          { text: "其他", link: "/other/bug-project" },
+        ],
+        icon: "reco-blog",
+      },
       {
         text: "文档",
         link: "/document/",
@@ -39,28 +48,6 @@ module.exports = {
         icon: "reco-message",
       },
       {
-        text: "文章",
-        link: "/word/",
-        items: [
-          { text: "刘刚", link: "/word/wxmp" },
-          { text: "庞希连", link: "/pangxl/webpack" },
-          { text: "王鑫", link: "/wangx/one" },
-          { text: "王通", link: "/iwtkings/bug-project" },
-          { text: "岳昌锋", link: "/yuecf/one" },
-          { text: "张三鹏", link: "/zhangsp/one" },
-          { text: "王兆贤", link: "/wangzhaox/one" },
-          { text: "花森秀", link: "/huasx/one" },
-          { text: "崔金训", link: "/cuijx/one" },
-          { text: "张义昆", link: "/zhangyikun/one" },
-          { text: "陈宇峰", link: "/chenyufeng/one" },
-          { text: "朱迎坤", link: "/zhuyingkun/one" },
-          { text: "潘双双", link: "/panshuangshuang/jenkins" },
-          { text: "史佳俊", link: "/shijiajun/one" },
-          { text: "沈瑞杰", link: "/shenrj/Vue3" },
-        ],
-        icon: "reco-blog",
-      },
-      {
         text: "tag",
         link: "/tag/",
         icon: "reco-tag",
@@ -76,7 +63,7 @@ module.exports = {
         items: [
           {
             text: "main",
-            link: "https://jkcs.common.com.cn/learning/h5/h5-document",
+            link: "https://github.com/liugangtaotie/h5-document.git",
           },
         ],
         icon: "reco-github",
@@ -92,44 +79,49 @@ module.exports = {
       "/codeDoc/ios-doc": ["ios-doc"],
       "/codeDoc/": ["h5-doc", "pc-doc"],
       "/word/": [
-        "wxmp",
-        "wxmp-next",
-        "vite",
-        "event-loop",
-        "js",
-        "design-patterns",
-        "npm-private-library",
-        "bs-common-ui",
-        "applet",
-        "applet-engine",
-        "applet-principle",
-        "subpackage",
-        "static-online-img",
-        "d2",
-        "read-statistic",
-        "multi-end-unified",
-        "debounce",
-        "css-var",
-        "ceiling-scheme",
-        "auto-deploy",
-        "babel",
-        "block-inline-element",
-        "ios-h5",
-        "qiankun",
-        "micro-app",
-        "web-component",
-        "module-federation",
-        "vue-ssr",
         "handwriting-vite",
+        "vue-ssr",
+        "module-federation",
+        "web-component",
+        "micro-app",
+        "qiankun",
+        "ios-h5",
+        "block-inline-element",
+        "babel",
+        "auto-deploy",
+        "ceiling-scheme",
+        "css-var",
+        "debounce",
+        "multi-end-unified",
+        "read-statistic",
+        "d2",
+        "static-online-img",
+        "subpackage",
+        "applet-principle",
+        "applet-engine",
+        "applet",
+        "xx-common-ui",
+        "npm-private-library",
+        "design-patterns",
+        "js",
+        "event-loop",
+        "vite",
+        "wxmp-next",
+        "wxmp",
       ],
-      "/pangxl/": ["webpack", "unit-test"],
-      "/wangx/": ["one"],
-      "/iwtkings/": ["one", "bug-project"],
-      "/yuecf/": ["one", "fastlane"],
-      "/zhangsp/": ["one"],
-      "/huasx/": ["one"],
-      "/cuijx/": ["one", "buglyHotFix"],
-      "/shenrj/": ["Vue3", "Vue3-2"],
+      "/other/": [
+        "bug-project",
+        "bugly",
+        "buglyHotFix",
+        "fastlane",
+        "Jenkins",
+        "mock",
+        "mock-two",
+        "unit-test",
+        "Vue3",
+        "Vue3-2",
+        "webpack",
+      ],
     },
 
     startYear: "2020", // 项目开始时间，只填写年份
@@ -187,10 +179,10 @@ module.exports = {
       },
     ],
     [
-      //先安装在配置， npm install @vuepress-plugin-meting --save
+      // 先安装在配置， npm install @vuepress-plugin-meting --save
       "meting",
       {
-        metingApi: "https://api.i-meto.com/meting/api",
+        metingApi: "https://api.injahow.cn/meting/",
         meting: {
           server: "netease",
           type: "playlist",
@@ -201,7 +193,7 @@ module.exports = {
           fixed: true,
           mini: true,
           // 自动播放
-          autoplay: true,
+          autoplay: false,
           // 歌曲栏折叠
           listFolded: true,
           // 颜色
@@ -313,5 +305,4 @@ module.exports = {
     //   },
     // ],
   ],
-  base: "/h5-document/",
 };

@@ -40,7 +40,7 @@ common.goToNative(jsNativeCommonName, params, callback);
   "userId": "xxxx", // 用户id
   "cardNo": "xxxx", // 证件号码
   "cardType": "xxxx", // 证件类型
-  "bussType": "xxxx", // 平台类型（GOL:智慧健康通；HOL:互联网医院）
+  "bussType": "xxxx", // 平台类型（GOL:xxx；HOL:xxx）
 }
 
 // 示例

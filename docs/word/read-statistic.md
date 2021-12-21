@@ -38,4 +38,9 @@ module.exports = {
 
 ## 四. 快速食用
 
-* 见本文档
+* 见本文档，详情见：[valine 官网](https://valine.js.org/quickstart.html)
+
+## 推荐的官方文档
+
+[valine 官网](https://valine.js.org/quickstart.html)
+

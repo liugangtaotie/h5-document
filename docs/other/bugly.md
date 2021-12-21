@@ -1,4 +1,12 @@
-# Bugly
+---
+title: Bugly
+author: wuxiang
+date: 2020-07-20
+tags:
+ - tag5
+categories:
+ - category1
+---
 
 ## Bugly账号注册
 

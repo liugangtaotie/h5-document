@@ -139,7 +139,7 @@ module.exports = ({ file }) => {
 
 ...
 // Tabs
-@tabs-default-color: @xx-color-primary;
+@taxx-default-color: @xx-color-primary;
 ...
 
 // 步骤二：引入全局样式

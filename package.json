@@ -1,13 +1,14 @@
 {
   "name": "h5-document",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "大前端文档",
-  "author": "liugang2@common.com.cn",
+  "author": "lgcf1314@gmail.com",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs --open --host \"localhost\"",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs --open --host \"localhost\"",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-comments": "^1.5.7",
@@ -36,7 +37,7 @@
     "vuepress-plugin-cursor-effects": "^1.0.0",
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-flowchart": "^1.4.3",
-    "vuepress-plugin-meting": "^0.1.1",
+    "vuepress-plugin-meting": "^0.3.1",
     "vuepress-plugin-nuggets-style-copy": "^1.0.3",
     "vuepress-plugin-reading-progress": "^1.0.8",
     "vuepress-plugin-ribbon": "^1.0.2",
@@ -47,6 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://jkcs.common.com.cn/learning/h5/h5-document.git"
+    "url": "https://github.com/liugangtaotie/h5-document.git"
   }
 }

@@ -4,7 +4,7 @@
 
 [ 注意: 下面的说明仅供参考,会由于项目变更而发生变化,请随时保持沟通! ]()
 
-[gitlab - 源码](http://jkcs.common.com.cn/bs-standard-repo/fore-end/wxmp.git)
+[gitlab - 源码](http://jkcs.common.com.cn/xx-standard-repo/fore-end/wxmp.git)
 
 ## 二、Build Setup(本地开发)
 
@@ -182,7 +182,7 @@ export WXPACK_CONFIG_IMGPREVIEWURL=http://http://xxx.com.cn/hcn-web/upload
 export WXPACK_CONFIG_NEWSURL=http://http://xxx.com.cn/pcn-core
 #新闻内容的HTML文件前缀
 export WXPACK_CONFIG_NEWSDETAILURL=http://http://xxx.com.cn/pcn-core/h5/views/resident/healthnews.html
-#健康档案地址前缀
+#xxx档案地址前缀
 export WXPACK_CONFIG_HEALTHDOCURL=http://221.233.192.130:8888/ehrview/redirect?user=system&password=123&idCard=
 #通用服务
 export WXPACK_CONFIG_SERVICEURL=http://http://xxx.com.cn/hcn-web
@@ -192,7 +192,7 @@ export WXPACK_CONFIG_TENANTID=hcn.dongtai
 export WXPACK_CONFIG_APPID=wx4ff1515c85d65af8
 export WXPACK_CONFIG_ROLEID=patient
 #公众号名称
-export WXPACK_CONFIG_TITLE=健康东台
+export WXPACK_CONFIG_TITLE=xxx东台
 #公众号的关注链接
 export WXPACK_CONFIG_ATTENTATIONWXACCOUNT=https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2NTEwOTYzNA==&scene=124#wechat_redirect
 #如果是公众号第三方接入,需要配置Component Id
@@ -355,7 +355,7 @@ https://xxx.com.cn/dist-ys/#/isolationService
 
 A、当前分支的源代码：npm run build:production / make pro  生成dist 文件;
 
-B、需要另外一个项目：http://jkcs.common.com.cn/bs-standard-repo/fore-end/wxmp-dist.git ;
+B、需要另外一个项目：http://jkcs.common.com.cn/xx-standard-repo/fore-end/wxmp-dist.git ;
 
 C、根据本地打包的参数，对应于wxmp-dist 分支号，比如：打包的参数选择的是hcn-web(develop),那么对应wxmp-dist 分支对应选择develop;
 
