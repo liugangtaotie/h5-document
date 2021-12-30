@@ -35,7 +35,7 @@ categories:
 </div>
 
 
-## [Getting Started](/word/handwriting-vite.html)
+## [Getting Started](/word/v8.html)
 
 <style scoped>
 .flex {
