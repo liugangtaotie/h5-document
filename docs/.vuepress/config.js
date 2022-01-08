@@ -22,7 +22,7 @@ module.exports = {
         text: "文章",
         link: "/word/",
         items: [
-          { text: "日常", link: "/word/v8" },
+          { text: "日常", link: "/word/d3" },
           { text: "其他", link: "/other/bug-project" },
         ],
         icon: "reco-blog",
@@ -80,6 +80,7 @@ module.exports = {
       "/codeDoc/ios-doc": ["ios-doc"],
       "/codeDoc/": ["h5-doc", "pc-doc"],
       "/word/": [
+        "d3",
         "v8",
         "handwriting-vite",
         "vue-ssr",
