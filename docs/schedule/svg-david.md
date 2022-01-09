@@ -44,6 +44,10 @@ categories:
 
 ##### 书籍 Interactive Data Visualization for the web (Scott Murray) - 2013
 
+      (免责声明：所有本博客涉及的书籍，仅供学习使用，切勿用于商业用途，请尊重版权)
+ - [Interactive Data Visualization for the web](https://github.com/liugangtaotie/h5-document/blob/main/docs/assets/books/Interactive.Data.Visualization.for.the.Web---Scott.Murray.%E6%96%87%E5%AD%97%E7%89%88.pdf)
+
+
 
 
 
