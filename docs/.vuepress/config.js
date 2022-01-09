@@ -126,7 +126,7 @@ module.exports = {
         "Vue3-2",
         "webpack",
       ],
-      "/schedule/": ["2022"],
+      "/schedule/": ["2022", "svg-david"],
     },
 
     startYear: "2020", // 项目开始时间，只填写年份

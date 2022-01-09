@@ -1,7 +1,7 @@
 ---
-title: 总览、2022
+title: 2022-(1-3)-svg-david
 author: liugang
-date: 2022-1-8
+date: 2022-1-9
 tags:
  - tag5
 categories:
@@ -10,9 +10,9 @@ categories:
 
 <Boxx  changeTime="5000"/>  
 
-## 2022年计划 （完成32本书）
+## 2022年计划(1-3) （完成8本书）
 
-### 一、1-3月 读完8本书，并写读书报告
+### 1-3月 读完8本书，并写读书报告
 
 - [ ] 从0到1 HTML5 Canvas 动画开发 — 莫振杰
 
@@ -30,14 +30,6 @@ categories:
 
 - [ ] Vue3.0 从入门到精通 — 李小威
 
-#### 二、4-6月
 
-xxx
+### 一、 SVG 精髓
 
-#### 三、7-9月
-
-xxx
-
-#### 四、10-12月
-
-xxx
