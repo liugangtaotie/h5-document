@@ -24,6 +24,7 @@ module.exports = {
         items: [
           { text: "日常", link: "/word/d3" },
           { text: "其他", link: "/other/bug-project" },
+          { text: "计划", link: "/schedule/2022" },
         ],
         icon: "reco-blog",
       },
@@ -125,6 +126,7 @@ module.exports = {
         "Vue3-2",
         "webpack",
       ],
+      "/schedule/": ["2022"],
     },
 
     startYear: "2020", // 项目开始时间，只填写年份
