@@ -33,3 +33,21 @@ categories:
 
 ### 一、 SVG 精髓
 
+
+### 二、 SVG 动画
+
+#### 第一章 SVG
+
+#### 第二章 使用CSS制作SVG动画
+
+#### 第六章 动态数据可视化
+
+##### 书籍 Interactive Data Visualization for the web (Scott Murray) - 2013
+
+
+
+
+
+
+
+
