@@ -38,6 +38,10 @@ categories:
 
 #### 第一章 SVG
 
+svg vs css 
+
+svg 没有background 属性；用fill + stoke 代替
+
 #### 第二章 使用CSS制作SVG动画
 
 #### 第六章 动态数据可视化
