@@ -14,6 +14,10 @@ categories:
 
 ### 1-3月 读完8本书，并写读书报告
 
+- [ √ ] SVG 动画 —  Sarah Drasner
+
+- [ ] SVG 精髓  — David Eisenberg & Amelia Bellamy-Royds
+
 - [ ] 从0到1 HTML5 Canvas 动画开发 — 莫振杰
 
 - [ ] HTML5 Canvas 核心技术 图形、动画与游戏开发 — David Geary
@@ -22,25 +26,17 @@ categories:
 
 - [ ] 前端技术架构与工程 — 周俊鹏
 
-- [ ] SVG 精髓  — David Eisenberg & Amelia Bellamy-Royds
-
-- [ ] SVG 动画 —  Sarah Drasner
-
 - [ ] D3.js 数据可视化实战手册— Nick Qi Zhu
 
 - [ ] Vue3.0 从入门到精通 — 李小威
 
-
-### 一、 SVG 精髓
-
-
-### 二、 SVG 动画
+### 一、 SVG 动画 Sarah Drasner
 
 #### 第一章 SVG
 
 svg vs css 
 
-svg 没有background 属性；用fill + stoke 代替
+svg 没有background 属性；用fill + stroke 代替
 
 #### 第二章 使用CSS制作SVG动画
 
@@ -50,6 +46,15 @@ svg 没有background 属性；用fill + stoke 代替
 
       (免责声明：所有本博客涉及的书籍，仅供学习使用，切勿用于商业用途，请尊重版权)
  - [Interactive Data Visualization for the web](https://github.com/liugangtaotie/h5-document/blob/main/docs/assets/books/Interactive.Data.Visualization.for.the.Web---Scott.Murray.%E6%96%87%E5%AD%97%E7%89%88.pdf)
+
+十分好用的工具：Greensock 
+
+### 二、 SVG 精髓  David Eisenberg & Amelia Bellamy-Royds
+
+栅格图形 vs 矢量图形
+
+
+
 
 
 
