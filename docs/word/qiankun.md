@@ -104,3 +104,7 @@ categories:
 [Micro Frontends](https://micro-frontends.org/)
 
 [手写一个微前端框架（内含源码地址）](https://blog.csdn.net/lunahaijiao/article/details/108016383)
+
+[当vite遇上微前端](https://mp.weixin.qq.com/s/DiEuJa8QXt2Ne2DJRW7NIA)
+
+[Vite接入微前端体系，我经历了什么？](https://mp.weixin.qq.com/s/SSSNRke6_Ja-LbANqvoM7Q)
