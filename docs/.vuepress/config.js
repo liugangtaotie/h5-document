@@ -22,7 +22,7 @@ module.exports = {
         text: "文章",
         link: "/word/",
         items: [
-          { text: "日常", link: "/word/d3" },
+          { text: "日常", link: "/word/data-visualization" },
           { text: "其他", link: "/other/bug-project" },
           { text: "计划", link: "/schedule/2022" },
         ],
@@ -81,6 +81,7 @@ module.exports = {
       "/codeDoc/ios-doc": ["ios-doc"],
       "/codeDoc/": ["h5-doc", "pc-doc"],
       "/word/": [
+        "data-visualization",
         "d3",
         "v8",
         "handwriting-vite",

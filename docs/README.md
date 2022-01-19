@@ -35,7 +35,7 @@ categories:
 </div>
 
 
-## [Getting Started](/word/d3.html)
+## [Getting Started](/word/data-visualization.html)
 
 <style scoped>
 .flex {
