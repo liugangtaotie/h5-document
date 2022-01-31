@@ -23,7 +23,7 @@ module.exports = {
         link: "/word/",
         items: [
           { text: "日常", link: "/word/data-visualization" },
-          { text: "其他", link: "/other/bug-project" },
+          { text: "其他", link: "/other/shields" },
           { text: "计划", link: "/schedule/2022" },
           { text: "关注", link: "/attention/one" },
         ],
@@ -116,6 +116,7 @@ module.exports = {
         "wxmp",
       ],
       "/other/": [
+        "shields",
         "bug-project",
         "bugly",
         "buglyHotFix",
