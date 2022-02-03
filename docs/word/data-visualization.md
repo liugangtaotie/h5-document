@@ -22,3 +22,5 @@ categories:
 - [原子设计方法论](http://patternlab.io)
 
 - [Micah Godbolt](https://micahgodbolt.com)
+
+- [从零开发一款可视化大屏制作平台](https://juejin.cn/post/6937257727106220040)
