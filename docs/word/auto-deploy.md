@@ -33,7 +33,7 @@ categories:
 
 * git push: git push;
 
-* jenkins生成docker镜像 -> rancher部署 : 
+* jenkins生成docker镜像 -> rancher部署 :
 
 ### 3.2 example(自动化部署)
 
@@ -58,6 +58,4 @@ categories:
 
 * 5. 部署成功后，点击对应的√
 
-
 ## 推荐的官方文档
-
