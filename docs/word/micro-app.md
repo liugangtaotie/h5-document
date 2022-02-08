@@ -59,4 +59,4 @@ categories:
 
 [接入成本最低微前端框架 京东零售micro-app开源了！](https://mp.weixin.qq.com/s/oI6InGJ3M_opH368eVXHYA)
 
-
+[初探 MicroApp，一个极致简洁的微前端框架](https://mp.weixin.qq.com/s/6l9SwYCXdiEVO5dXdGyvbQ)
