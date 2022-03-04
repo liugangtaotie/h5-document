@@ -91,4 +91,5 @@
     }
   },
   "search.followSymlinks": false,
+  "powermode.shake.intensity": 0,
 }
