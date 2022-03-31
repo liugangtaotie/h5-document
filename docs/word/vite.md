@@ -674,3 +674,5 @@ export default defineConfig({
 [重构于Vite](https://zhuanlan.zhihu.com/p/352216610)
 
 [深入理解Vite核心原理](https://juejin.cn/post/7064853960636989454)
+
+[Vite 官方教程插件实现与踩坑](https://juejin.cn/post/7080347066811023397)
