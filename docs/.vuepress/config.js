@@ -26,6 +26,7 @@ module.exports = {
           { text: "其他", link: "/other/shields" },
           { text: "计划", link: "/schedule/2022" },
           { text: "关注", link: "/attention/one" },
+          { text: "文化", link: "/cultural/zhuangzi" },
         ],
         icon: "reco-blog",
       },
@@ -131,6 +132,7 @@ module.exports = {
       ],
       "/schedule/": ["2022", "202201-03"],
       "/attention/": ["one"],
+      "/cultural/": ["zhuangzi"],
     },
 
     startYear: "2020", // 项目开始时间，只填写年份
