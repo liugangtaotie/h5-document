@@ -131,7 +131,7 @@ module.exports = {
         "webpack",
       ],
       "/schedule/": ["2022", "202201-03"],
-      "/attention/": ["one", "excellent"],
+      "/attention/": ["one", "excellent", "jest"],
       "/cultural/": ["zhuangzi"],
     },
 
