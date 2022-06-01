@@ -130,7 +130,7 @@ module.exports = {
         "Vue3-2",
         "webpack",
       ],
-      "/schedule/": ["2022", "202201-03"],
+      "/schedule/": ["2022", "202201-03", "202206-08"],
       "/attention/": ["one", "excellent", "jest"],
       "/cultural/": ["zhuangzi"],
     },
