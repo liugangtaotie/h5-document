@@ -132,7 +132,7 @@ module.exports = {
       ],
       "/schedule/": ["2022", "202201-03", "202206-08"],
       "/attention/": ["one", "excellent", "jest"],
-      "/cultural/": ["zhuangzi"],
+      "/cultural/": ["zhuangzi", "zhouyi"],
     },
 
     startYear: "2020", // 项目开始时间，只填写年份
