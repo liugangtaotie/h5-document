@@ -149,3 +149,5 @@ nrm use xxx      //  使用npm源
 [Verdaccio 搭建私有 NPM](https://juejin.im/post/6844903833819152391)
 
 [使用verdaccio搭建私有npm](https://juejin.im/post/6844903961346965517)
+
+[炒菜式手把手教学：基本的memorepo项目npm发包流程](https://juejin.cn/post/7000271682778693645)

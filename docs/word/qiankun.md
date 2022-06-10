@@ -110,3 +110,5 @@ categories:
 [Vite接入微前端体系，我经历了什么？](https://mp.weixin.qq.com/s/SSSNRke6_Ja-LbANqvoM7Q)
 
 [一文彻底搞懂前端沙箱](https://mp.weixin.qq.com/s/uu0H2MTO1z1b8nsfuoyLQw)
+
+[从"微前端"到“微模块”](https://mp.weixin.qq.com/s/bR7vDw_ii4VPL4f8YVIWEg)
