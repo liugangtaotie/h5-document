@@ -35,7 +35,7 @@ categories:
 </div>
 
 
-## [Getting Started](/word/data-visualization.html)
+## [Getting Started](/word/vite-libs.html)
 
 <style scoped>
 .flex {
